@@ -1,0 +1,4056 @@
+fileFormatVersion: 2
+guid: 741f73214c8e59045b42ebac4be91444
+timeCreated: 1468254894
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bottom_arm.L
+    100002: Bottom_arm.R
+    100004: Bottom_leg.L
+    100006: Bottom_leg.R
+    100008: Clavicle.L
+    100010: Clavicle.R
+    100012: Elbow_IK.L
+    100014: Elbow_IK.L_end
+    100016: Elbow_IK.R
+    100018: Elbow_IK.R_end
+    100020: finger1_1.L
+    100022: finger1_1.R
+    100024: finger1_2.L
+    100026: finger1_2.L_end
+    100028: finger1_2.R
+    100030: finger1_2.R_end
+    100032: finger2_1.L
+    100034: finger2_1.R
+    100036: finger2_2.L
+    100038: finger2_2.L_end
+    100040: finger2_2.R
+    100042: finger2_2.R_end
+    100044: Foot.L
+    100046: Foot.R
+    100048: Foot_ctrl.L
+    100050: Foot_ctrl.R
+    100052: Foot_IK.L
+    100054: Foot_IK.L_end
+    100056: Foot_IK.R
+    100058: Foot_IK.R_end
+    100060: FootRoll_crtl.L
+    100062: FootRoll_crtl.L_end
+    100064: FootRoll_crtl.R
+    100066: FootRoll_crtl.R_end
+    100068: gbln_war_eq.002
+    100070: Goblin_armature
+    100072: GOBLIN_BASE
+    100074: //RootNode
+    100076: Hand.L
+    100078: Hand.R
+    100080: Hand_IK.L
+    100082: Hand_IK.R
+    100084: Head
+    100086: Heel_roll.L
+    100088: Heel_roll.R
+    100090: Hips_ctrl
+    100092: jaw
+    100094: jaw_end
+    100096: Knee_IK.L
+    100098: Knee_IK.L_end
+    100100: Knee_IK.R
+    100102: Knee_IK.R_end
+    100104: Neck
+    100106: spine_1
+    100108: spine_2
+    100110: spine_3
+    100112: Thumb_1.L
+    100114: Thumb_1.R
+    100116: Thumb_2.L
+    100118: Thumb_2.L_end
+    100120: Thumb_2.R
+    100122: Thumb_2.R_end
+    100124: Toe.L
+    100126: Toe.L_end
+    100128: Toe.R
+    100130: Toe.R_end
+    100132: Toe_roll.L
+    100134: Toe_roll.R
+    100136: Upper_arm.L
+    100138: Upper_arm.R
+    100140: Upper_leg.L
+    100142: Upper_leg.R
+    100144: Vis_1
+    100146: Vis_1_end
+    100148: Weapon_bone.L
+    100150: Weapon_bone.L_end
+    100152: Weapon_bone.R
+    100154: Weapon_bone.R_end
+    400000: Bottom_arm.L
+    400002: Bottom_arm.R
+    400004: Bottom_leg.L
+    400006: Bottom_leg.R
+    400008: Clavicle.L
+    400010: Clavicle.R
+    400012: Elbow_IK.L
+    400014: Elbow_IK.L_end
+    400016: Elbow_IK.R
+    400018: Elbow_IK.R_end
+    400020: finger1_1.L
+    400022: finger1_1.R
+    400024: finger1_2.L
+    400026: finger1_2.L_end
+    400028: finger1_2.R
+    400030: finger1_2.R_end
+    400032: finger2_1.L
+    400034: finger2_1.R
+    400036: finger2_2.L
+    400038: finger2_2.L_end
+    400040: finger2_2.R
+    400042: finger2_2.R_end
+    400044: Foot.L
+    400046: Foot.R
+    400048: Foot_ctrl.L
+    400050: Foot_ctrl.R
+    400052: Foot_IK.L
+    400054: Foot_IK.L_end
+    400056: Foot_IK.R
+    400058: Foot_IK.R_end
+    400060: FootRoll_crtl.L
+    400062: FootRoll_crtl.L_end
+    400064: FootRoll_crtl.R
+    400066: FootRoll_crtl.R_end
+    400068: gbln_war_eq.002
+    400070: Goblin_armature
+    400072: GOBLIN_BASE
+    400074: //RootNode
+    400076: Hand.L
+    400078: Hand.R
+    400080: Hand_IK.L
+    400082: Hand_IK.R
+    400084: Head
+    400086: Heel_roll.L
+    400088: Heel_roll.R
+    400090: Hips_ctrl
+    400092: jaw
+    400094: jaw_end
+    400096: Knee_IK.L
+    400098: Knee_IK.L_end
+    400100: Knee_IK.R
+    400102: Knee_IK.R_end
+    400104: Neck
+    400106: spine_1
+    400108: spine_2
+    400110: spine_3
+    400112: Thumb_1.L
+    400114: Thumb_1.R
+    400116: Thumb_2.L
+    400118: Thumb_2.L_end
+    400120: Thumb_2.R
+    400122: Thumb_2.R_end
+    400124: Toe.L
+    400126: Toe.L_end
+    400128: Toe.R
+    400130: Toe.R_end
+    400132: Toe_roll.L
+    400134: Toe_roll.R
+    400136: Upper_arm.L
+    400138: Upper_arm.R
+    400140: Upper_leg.L
+    400142: Upper_leg.R
+    400144: Vis_1
+    400146: Vis_1_end
+    400148: Weapon_bone.L
+    400150: Weapon_bone.L_end
+    400152: Weapon_bone.R
+    400154: Weapon_bone.R_end
+    4300000: gbln_war_eq.002
+    4300002: GOBLIN_BASE
+    7400000: Goblin_armature|ArmatureAction
+    7400002: walk
+    7400004: run
+    7400006: idle
+    7400008: idle_battle
+    7400010: attack1
+    7400012: attack2
+    7400014: pow_attack
+    7400016: cast
+    7400018: def_start
+    7400020: def_end
+    7400022: hit1
+    7400024: hit2
+    7400026: death1
+    7400028: death2
+    7400030: jump_start
+    7400032: jump_end
+    9500000: //RootNode
+    13700000: gbln_war_eq.002
+    13700002: GOBLIN_BASE
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Goblin_armature|ArmatureAction' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'Hips_ctrl' has translation animation
+      that will be discarded.\n\t'Hips_ctrl' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'spine_1' has translation
+      animation that will be discarded.\n\t'spine_1' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Vis_1' has translation
+      animation that will be discarded.\n\t'Clavicle.L' has translation animation
+      that will be discarded.\n\t'Clavicle.R' has translation animation that will
+      be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Goblin_armature|ArmatureAction
+      takeName: Goblin_armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 393
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gbln_war_eq.002
+        weight: 1
+      - path: Goblin_armature
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L/Weapon_bone.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R/Weapon_bone.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1/Vis_1_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: Goblin_armature|ArmatureAction
+      firstFrame: 2
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gbln_war_eq.002
+        weight: 1
+      - path: Goblin_armature
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L/Weapon_bone.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R/Weapon_bone.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1/Vis_1_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: Goblin_armature|ArmatureAction
+      firstFrame: 33
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gbln_war_eq.002
+        weight: 1
+      - path: Goblin_armature
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L/Weapon_bone.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R/Weapon_bone.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1/Vis_1_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: Goblin_armature|ArmatureAction
+      firstFrame: 52
+      lastFrame: 102
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gbln_war_eq.002
+        weight: 1
+      - path: Goblin_armature
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L/Weapon_bone.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R/Weapon_bone.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1/Vis_1_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle_battle
+      takeName: Goblin_armature|ArmatureAction
+      firstFrame: 110
+      lastFrame: 136
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gbln_war_eq.002
+        weight: 1
+      - path: Goblin_armature
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L/Weapon_bone.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R/Weapon_bone.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1/Vis_1_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack1
+      takeName: Goblin_armature|ArmatureAction
+      firstFrame: 140
+      lastFrame: 161
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gbln_war_eq.002
+        weight: 1
+      - path: Goblin_armature
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L/Weapon_bone.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R/Weapon_bone.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1/Vis_1_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack2
+      takeName: Goblin_armature|ArmatureAction
+      firstFrame: 161
+      lastFrame: 179
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gbln_war_eq.002
+        weight: 1
+      - path: Goblin_armature
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L/Weapon_bone.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R/Weapon_bone.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1/Vis_1_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pow_attack
+      takeName: Goblin_armature|ArmatureAction
+      firstFrame: 179
+      lastFrame: 207
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gbln_war_eq.002
+        weight: 1
+      - path: Goblin_armature
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L/Weapon_bone.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R/Weapon_bone.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1/Vis_1_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: cast
+      takeName: Goblin_armature|ArmatureAction
+      firstFrame: 207
+      lastFrame: 235
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gbln_war_eq.002
+        weight: 1
+      - path: Goblin_armature
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L/Weapon_bone.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R/Weapon_bone.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1/Vis_1_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: def_start
+      takeName: Goblin_armature|ArmatureAction
+      firstFrame: 235
+      lastFrame: 260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gbln_war_eq.002
+        weight: 1
+      - path: Goblin_armature
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L/Weapon_bone.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R/Weapon_bone.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1/Vis_1_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: def_end
+      takeName: Goblin_armature|ArmatureAction
+      firstFrame: 260
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gbln_war_eq.002
+        weight: 1
+      - path: Goblin_armature
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L/Weapon_bone.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R/Weapon_bone.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1/Vis_1_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hit1
+      takeName: Goblin_armature|ArmatureAction
+      firstFrame: 270
+      lastFrame: 285
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gbln_war_eq.002
+        weight: 1
+      - path: Goblin_armature
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L/Weapon_bone.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R/Weapon_bone.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1/Vis_1_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hit2
+      takeName: Goblin_armature|ArmatureAction
+      firstFrame: 285
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gbln_war_eq.002
+        weight: 1
+      - path: Goblin_armature
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L/Weapon_bone.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R/Weapon_bone.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1/Vis_1_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death1
+      takeName: Goblin_armature|ArmatureAction
+      firstFrame: 305
+      lastFrame: 330
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gbln_war_eq.002
+        weight: 1
+      - path: Goblin_armature
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L/Weapon_bone.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R/Weapon_bone.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1/Vis_1_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death2
+      takeName: Goblin_armature|ArmatureAction
+      firstFrame: 335
+      lastFrame: 355
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gbln_war_eq.002
+        weight: 1
+      - path: Goblin_armature
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L/Weapon_bone.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R/Weapon_bone.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1/Vis_1_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jump_start
+      takeName: Goblin_armature|ArmatureAction
+      firstFrame: 360
+      lastFrame: 377
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gbln_war_eq.002
+        weight: 1
+      - path: Goblin_armature
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L/Weapon_bone.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R/Weapon_bone.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1/Vis_1_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jump_end
+      takeName: Goblin_armature|ArmatureAction
+      firstFrame: 377
+      lastFrame: 393
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gbln_war_eq.002
+        weight: 1
+      - path: Goblin_armature
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Goblin_armature/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Goblin_armature/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Goblin_armature/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger1_1.L/finger1_2.L/finger1_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/finger2_1.L/finger2_2.L/finger2_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Thumb_1.L/Thumb_2.L/Thumb_2.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Weapon_bone.L/Weapon_bone.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger1_1.R/finger1_2.R/finger1_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/finger2_1.R/finger2_2.R/finger2_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Thumb_1.R/Thumb_2.R/Thumb_2.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Weapon_bone.R/Weapon_bone.R_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/Vis_1/Vis_1_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Goblin_armature/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: GOBLIN_BASE
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.2
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Goblin_armature
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upper_leg.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upper_leg.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bottom_leg.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bottom_leg.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine_2
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine_3
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clavicle.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Clavicle.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upper_arm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upper_arm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bottom_arm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bottom_arm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toe.L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toe.R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vis_1
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thumb_1.L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thumb_2.L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: finger1_1.L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: finger1_2.L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: finger2_1.L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: finger2_2.L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thumb_1.R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Thumb_2.R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: finger1_1.R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: finger1_2.R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: finger2_1.R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: finger2_2.R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Goblin_rouge(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: gbln_war_eq.002
+      position: {x: -0, y: -0.000000047683717, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+      transformModified: 1
+    - name: Goblin_armature
+      position: {x: 0, y: 0.34361523, z: 0.002824068}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+      transformModified: 1
+    - name: Foot_ctrl.L
+      position: {x: -0.00081681815, y: 0.0000062302984, z: -0.0029438909}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: -0.7071068}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: Knee_IK.L
+      position: {x: -0, y: -0.0013011758, z: -0.0020503278}
+      rotation: {x: 0.00000076308265, y: 0.6710051, z: -0.74145275, w: -0.0000006905799}
+      scale: {x: 1, y: 0.9999993, z: 0.9999997}
+      transformModified: 1
+    - name: Knee_IK.L_end
+      position: {x: -0, y: 0.0010799336, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Heel_roll.L
+      position: {x: -1.192093e-10, y: 0.00040469412, z: 0.0002919949}
+      rotation: {x: -0.0000000533851, y: 0.70710677, z: -0.7071069, w: 0.000000053385094}
+      scale: {x: 1.0000013, y: 0.9999997, z: 0.9999997}
+      transformModified: 1
+    - name: Toe_roll.L
+      position: {x: -2.8785335e-11, y: 0.0009604296, z: -0.000000002025072}
+      rotation: {x: -0.00000006372033, y: -0.000000119209275, z: -1, w: 2.2204458e-15}
+      scale: {x: 0.9999994, y: 0.9999997, z: 0.99999994}
+      transformModified: 1
+    - name: Foot_IK.L
+      position: {x: 9.739366e-12, y: 0.0006684345, z: 0.00040469164}
+      rotation: {x: -0.0000003167108, y: -0.26885286, z: 0.9631813, w: 0.0000000843974}
+      scale: {x: 1.000002, y: 1.0000014, z: 0.9999994}
+      transformModified: 1
+    - name: Foot_IK.L_end
+      position: {x: -0, y: 0.00078139605, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: FootRoll_crtl.L
+      position: {x: -0, y: 2.391613e-10, z: 4.656613e-13}
+      rotation: {x: -0.7071068, y: -0, z: 0, w: -0.7071068}
+      scale: {x: 1, y: 0.9999997, z: 0.9999997}
+      transformModified: 1
+    - name: FootRoll_crtl.L_end
+      position: {x: -0, y: 0.00081178005, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hips_ctrl
+      position: {x: 1.6945695e-12, y: -0.0001811555, z: 0.0011497774}
+      rotation: {x: 0.48928648, y: -0.51050633, z: 0.48970953, w: -0.5100653}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+      transformModified: 1
+    - name: spine_1
+      position: {x: -1.14085554e-10, y: 0.00129002, z: -3.4758138e-12}
+      rotation: {x: -0.70680124, y: -0.00000008940697, z: -0.70741224, w: -0.000000048320672}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+      transformModified: 1
+    - name: spine_2
+      position: {x: 7.105428e-18, y: 0.0012900196, z: 1.4901119e-11}
+      rotation: {x: -0.07457656, y: 0.000000052342706, z: 0.00000008195638, w: 0.9972153}
+      scale: {x: 0.99999976, y: 0.99999946, z: 0.9999995}
+      transformModified: 1
+    - name: spine_3
+      position: {x: -7.02216e-18, y: 0.00093616167, z: 1.1657342e-18}
+      rotation: {x: -0.0323517, y: -0.00000021031452, z: 0.000000008766432, w: 0.99947655}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+      transformModified: 1
+    - name: Neck
+      position: {x: -7.105428e-18, y: 0.0012122607, z: -1.490127e-11}
+      rotation: {x: 0.08610708, y: 0.00000023776335, z: 0.0000000046437205, w: 0.9962859}
+      scale: {x: 1.0000001, y: 0.9999996, z: 0.99999976}
+      transformModified: 1
+    - name: Head
+      position: {x: -8.0687134e-18, y: 0.0005971422, z: 1.9082485e-12}
+      rotation: {x: 0.09587662, y: -0.000000029954776, z: 0.000000011946488, w: 0.9953933}
+      scale: {x: 0.99999994, y: 1.0000005, z: 1.0000004}
+      transformModified: 1
+    - name: jaw
+      position: {x: 1.7087231e-12, y: 0.00014108405, z: 0.00019896}
+      rotation: {x: 0.78048706, y: -0.000000045983064, z: -0.000000039434994, w: 0.62517196}
+      scale: {x: 1.0000001, y: 1.000001, z: 1.0000012}
+      transformModified: 1
+    - name: jaw_end
+      position: {x: -0, y: 0.0012723489, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Vis_1
+      position: {x: -1.3311112e-10, y: 0.0007648262, z: -0.0009949548}
+      rotation: {x: 0.99445504, y: -0.000000032600884, z: 0.000000117972114, w: 0.105162844}
+      scale: {x: 1.0000001, y: 1.0000017, z: 1.0000032}
+      transformModified: 1
+    - name: Vis_1_end
+      position: {x: -0, y: 0.0013897786, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Clavicle.L
+      position: {x: -0.00015702011, y: 0.0004417747, z: 0.0006453421}
+      rotation: {x: -0.07966385, y: -0.117481224, z: 0.5795713, w: 0.8024643}
+      scale: {x: 1.000001, y: 1.0000013, z: 0.9999999}
+      transformModified: 1
+    - name: Upper_arm.L
+      position: {x: -0.00038093035, y: 0.0009095057, z: -0.00002552706}
+      rotation: {x: 0.18244831, y: -0.05362758, z: 0.16542915, w: 0.9677137}
+      scale: {x: 1.000001, y: 1.0000001, z: 1.0000002}
+      transformModified: 1
+    - name: Bottom_arm.L
+      position: {x: 2.407469e-10, y: 0.0010530497, z: 2.6077033e-11}
+      rotation: {x: 0.0116797825, y: 0.094387665, z: -0.02176877, w: 0.99522895}
+      scale: {x: 0.999999, y: 1.0000002, z: 0.99999994}
+      transformModified: 1
+    - name: Hand.L
+      position: {x: 1.0989606e-10, y: 0.0011195278, z: 5.960465e-11}
+      rotation: {x: -0.037267763, y: -0.04447886, z: -0.052373584, w: 0.99694026}
+      scale: {x: 1.0000013, y: 1.0000007, z: 1.0000007}
+      transformModified: 1
+    - name: finger1_1.L
+      position: {x: 0.000012625277, y: 0.00064459216, z: 0.00022679237}
+      rotation: {x: 0.09481535, y: -0.7047254, z: -0.085351415, w: -0.6979163}
+      scale: {x: 1.0000008, y: 1.0000008, z: 1.0000008}
+      transformModified: 1
+    - name: finger1_2.L
+      position: {x: 2.9802322e-10, y: 0.0005306175, z: 5.5879353e-11}
+      rotation: {x: -0.033263884, y: -0.074329644, z: 0.003440354, w: 0.99667287}
+      scale: {x: 0.9999989, y: 0.9999987, z: 0.9999989}
+      transformModified: 1
+    - name: finger1_2.L_end
+      position: {x: -0, y: 0.00043829443, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: finger2_1.L
+      position: {x: -0.00007214023, y: 0.00066850515, z: -0.00022588146}
+      rotation: {x: 0.07932765, y: -0.796268, z: -0.09989017, w: -0.59134275}
+      scale: {x: 1.0000001, y: 1.0000017, z: 1.0000007}
+      transformModified: 1
+    - name: finger2_2.L
+      position: {x: 1.7881394e-10, y: 0.00043257777, z: 2.682209e-10}
+      rotation: {x: 0.029633539, y: 0.16379379, z: -0.0044646016, w: -0.98603934}
+      scale: {x: 1.0000013, y: 1.0000019, z: 1.0000008}
+      transformModified: 1
+    - name: finger2_2.L_end
+      position: {x: -0, y: 0.0004738349, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Thumb_1.L
+      position: {x: -0.000020755424, y: 0.00028309855, z: 0.00023173765}
+      rotation: {x: 0.393393, y: 0.17832893, z: 0.20860186, w: 0.87745434}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000004}
+      transformModified: 1
+    - name: Thumb_2.L
+      position: {x: 2.0861626e-10, y: 0.0003869741, z: 4.842877e-11}
+      rotation: {x: -0.01183937, y: 0.78250194, z: -0.034366656, w: 0.6215862}
+      scale: {x: 1.0000014, y: 1.0000006, z: 1.0000004}
+      transformModified: 1
+    - name: Thumb_2.L_end
+      position: {x: -0, y: 0.00042858423, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Weapon_bone.L
+      position: {x: -0.0003694613, y: 0.0008124464, z: 0.00010994827}
+      rotation: {x: 0.5201059, y: -0.51512814, z: -0.52523744, w: 0.4338877}
+      scale: {x: 0.99999964, y: 1.0000005, z: 1.0000004}
+      transformModified: 1
+    - name: Weapon_bone.L_end
+      position: {x: -0, y: 0.0029419665, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Clavicle.R
+      position: {x: 0.00015702067, y: 0.0004417747, z: 0.00064534193}
+      rotation: {x: 0.56757325, y: 0.70105815, z: 0.1418096, w: -0.40775993}
+      scale: {x: 1.000001, y: 1.0000005, z: 1.0000019}
+      transformModified: 1
+    - name: Upper_arm.R
+      position: {x: -0.00029299507, y: 0.0009095056, z: -0.0002447716}
+      rotation: {x: 0.085450105, y: -0.91814756, z: 0.23083532, w: -0.31051326}
+      scale: {x: 1.000001, y: 1.0000005, z: 1.0000004}
+      transformModified: 1
+    - name: Bottom_arm.R
+      position: {x: -4.284084e-11, y: 0.0010530498, z: -3.7252905e-12}
+      rotation: {x: 0.004778465, y: 0.015655247, z: 0.024224777, w: 0.9995725}
+      scale: {x: 0.99999946, y: 1.0000011, z: 0.99999887}
+      transformModified: 1
+    - name: Hand.R
+      position: {x: -1.9060098e-10, y: 0.0011195274, z: -4.9476512e-12}
+      rotation: {x: 0.06372922, y: -0.6580063, z: 0.008394284, w: -0.7502639}
+      scale: {x: 1.0000012, y: 1.0000011, z: 1.0000004}
+      transformModified: 1
+    - name: finger1_1.R
+      position: {x: -0.00022044187, y: 0.0006445924, z: -0.000054768516}
+      rotation: {x: -0.116849914, y: -0.1306554, z: -0.035471782, w: -0.9838786}
+      scale: {x: 1, y: 0.9999991, z: 1.0000008}
+      transformModified: 1
+    - name: finger1_2.R
+      position: {x: -0, y: 0.0005306182, z: -1.899898e-10}
+      rotation: {x: -0.031651657, y: 0.16226123, z: -0.010789527, w: -0.9861811}
+      scale: {x: 1.0000011, y: 1.000001, z: 1.0000004}
+      transformModified: 1
+    - name: finger1_2.R_end
+      position: {x: -0, y: 0.00043829452, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: finger2_1.R
+      position: {x: 0.00020842963, y: 0.00066850526, z: 0.00011306502}
+      rotation: {x: -0.10766189, y: -0.063782156, z: -0.062458687, w: -0.9901716}
+      scale: {x: 1.0000005, y: 0.99999976, z: 1.0000008}
+      transformModified: 1
+    - name: finger2_2.R
+      position: {x: -0, y: 0.0004325779, z: 1.2596138e-10}
+      rotation: {x: -0.028806355, y: 0.31041518, z: -0.008268283, w: -0.9501285}
+      scale: {x: 0.9999995, y: 0.9999995, z: 1.0000001}
+      transformModified: 1
+    - name: finger2_2.R_end
+      position: {x: -0, y: 0.000473835, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Thumb_1.R
+      position: {x: -0.00023153557, y: 0.00028309887, z: -0.00002289905}
+      rotation: {x: 0.42958242, y: -0.87753123, z: -0.16849558, w: -0.1304118}
+      scale: {x: 1.0000004, y: 0.9999993, z: 1.0000012}
+      transformModified: 1
+    - name: Thumb_2.R
+      position: {x: -0, y: 0.00038697405, z: -5.0291417e-11}
+      rotation: {x: -0.026703978, y: 0.8109018, z: 0.024661401, w: 0.5840522}
+      scale: {x: 0.99999964, y: 0.9999997, z: 1.000001}
+      transformModified: 1
+    - name: Thumb_2.R_end
+      position: {x: -0, y: 0.00042858423, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Weapon_bone.R
+      position: {x: -0.00011208682, y: 0.0006003028, z: 0.00026651166}
+      rotation: {x: 0.072873645, y: 0.0058387215, z: -0.73557734, w: -0.6734846}
+      scale: {x: 1.0000006, y: 1.0000017, z: 1}
+      transformModified: 1
+    - name: Weapon_bone.R_end
+      position: {x: -0, y: 0.002941967, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Upper_leg.L
+      position: {x: -0.00072159426, y: 0.00032861144, z: -0.00016957983}
+      rotation: {x: -0.00967446, y: 0.08188803, z: 0.9963033, w: 0.024094313}
+      scale: {x: 1.0000017, y: 1.000002, z: 1.0000002}
+      transformModified: 1
+    - name: Bottom_leg.L
+      position: {x: -7.636845e-11, y: 0.00201332, z: 1.4901162e-11}
+      rotation: {x: 0.023717001, y: -0.9873223, z: 0.15693963, w: -0.0014636186}
+      scale: {x: 0.99999917, y: 0.99999887, z: 0.99999934}
+      transformModified: 1
+    - name: Foot.L
+      position: {x: -7.667404e-11, y: 0.0011657602, z: -3.678724e-11}
+      rotation: {x: 0.0039892364, y: 0.81996435, z: -0.5723272, w: 0.009180227}
+      scale: {x: 1.0000011, y: 1.0000014, z: 1.0000015}
+      transformModified: 1
+    - name: Toe.L
+      position: {x: 7.967174e-12, y: 0.00078139425, z: -1.8782946e-10}
+      rotation: {x: 0.26270384, y: 0.000010557004, z: 0.000003042863, w: 0.96487653}
+      scale: {x: 1.0000012, y: 1.000001, z: 0.99999905}
+      transformModified: 1
+    - name: Toe.L_end
+      position: {x: -0, y: 0.0006724301, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Upper_leg.R
+      position: {x: 0.0007215945, y: 0.00032861164, z: -0.00016958013}
+      rotation: {x: 0.009633213, y: 0.08196923, z: 0.99630964, w: -0.023568347}
+      scale: {x: 1.0000005, y: 1.0000014, z: 1.0000024}
+      transformModified: 1
+    - name: Bottom_leg.R
+      position: {x: -1.01048496e-10, y: 0.0020133199, z: -1.0244548e-11}
+      rotation: {x: -0.023000188, y: -0.98730546, z: 0.1570458, w: 0.0059672743}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000013}
+      transformModified: 1
+    - name: Foot.R
+      position: {x: 9.462383e-11, y: 0.0011657593, z: 3.8184227e-11}
+      rotation: {x: -0.0021621545, y: 0.81991416, z: -0.5724607, w: -0.004973001}
+      scale: {x: 0.9999989, y: 0.99999976, z: 0.99999857}
+      transformModified: 1
+    - name: Toe.R
+      position: {x: 2.3813498e-11, y: 0.00078139285, z: 4.2415085e-10}
+      rotation: {x: 0.26270428, y: 0.0000129390955, z: 0.0000035933913, w: 0.9648764}
+      scale: {x: 1.000002, y: 0.99999917, z: 1.0000021}
+      transformModified: 1
+    - name: Toe.R_end
+      position: {x: -0, y: 0.0006724295, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hand_IK.L
+      position: {x: -0.0031050679, y: -0.000113947775, z: 0.0019616121}
+      rotation: {x: -0.000000029802322, y: -9.313226e-10, z: 0.025186162, w: 0.9996828}
+      scale: {x: 1, y: 1.0000007, z: 1.000001}
+      transformModified: 1
+    - name: Elbow_IK.L
+      position: {x: 0.0013636481, y: 0.0017445866, z: 0.00020558464}
+      rotation: {x: -0.12831174, y: 0.014689442, z: -0.11278696, w: 0.9851901}
+      scale: {x: 1.0000001, y: 1.0000014, z: 1.0000007}
+      transformModified: 1
+    - name: Elbow_IK.L_end
+      position: {x: -0, y: 0.00083487696, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Foot_ctrl.R
+      position: {x: 0.00081681815, y: 0.0000062302947, z: -0.0029438909}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: -0.7071068}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+      transformModified: 1
+    - name: Knee_IK.R
+      position: {x: -0, y: -0.0013011758, z: -0.0020503278}
+      rotation: {x: 0.0000012934105, y: 0.6710054, z: -0.7414525, w: -0.0000011705207}
+      scale: {x: 1.0000029, y: 1.0000005, z: 1.0000012}
+      transformModified: 1
+    - name: Knee_IK.R_end
+      position: {x: -0, y: 0.0010799331, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Heel_roll.R
+      position: {x: 1.192093e-10, y: 0.00040469316, z: 0.00029199486}
+      rotation: {x: 0.000000053385072, y: 0.7071068, z: -0.7071068, w: -0.00000005338508}
+      scale: {x: 1.0000013, y: 0.9999995, z: 0.9999995}
+      transformModified: 1
+    - name: Toe_roll.R
+      position: {x: 1.479945e-10, y: 0.0009604294, z: -0.000000001315429}
+      rotation: {x: 0.0000000754979, y: -0, z: -1, w: 3.5527122e-15}
+      scale: {x: 0.9999994, y: 0.9999998, z: 0.9999998}
+      transformModified: 1
+    - name: Foot_IK.R
+      position: {x: 4.185541e-17, y: 0.0006684344, z: 0.0004046917}
+      rotation: {x: -0.00000031671104, y: -0.26885307, z: 0.96318126, w: 0.00000008439746}
+      scale: {x: 1.0000013, y: 1.0000024, z: 1.0000011}
+      transformModified: 1
+    - name: Foot_IK.R_end
+      position: {x: -0, y: 0.00078139623, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: FootRoll_crtl.R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: -0, z: 0, w: -0.7071068}
+      scale: {x: 1, y: 0.9999995, z: 0.9999995}
+      transformModified: 1
+    - name: FootRoll_crtl.R_end
+      position: {x: -0, y: 0.00081178, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hand_IK.R
+      position: {x: 0.0031050679, y: -0.000113947775, z: 0.0019616121}
+      rotation: {x: -0.000000029802322, y: 9.313226e-10, z: -0.025186162, w: 0.9996828}
+      scale: {x: 1, y: 1.0000007, z: 1.000001}
+      transformModified: 1
+    - name: Elbow_IK.R
+      position: {x: -0.0013636481, y: 0.0017445869, z: 0.00020558464}
+      rotation: {x: -0.13335596, y: 0.030570276, z: 0.106775366, w: 0.9848252}
+      scale: {x: 1.0000002, y: 0.99999887, z: 0.99999934}
+      transformModified: 1
+    - name: Elbow_IK.R_end
+      position: {x: -0, y: 0.00083487696, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: GOBLIN_BASE
+      position: {x: -0, y: -0.000000047683717, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

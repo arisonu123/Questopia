@@ -1,0 +1,122 @@
+fileFormatVersion: 2
+guid: b544a1ccfec9a2543b3e4a999c578497
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: StellLadder A
+    100004: StellLadder B
+    100006: StellLadder C
+    100008: StellLadder D
+    100010: StellLadder E
+    100012: StellLadder LP A
+    100014: StellLadder LP B
+    100016: StellLadder LP C
+    100018: StellLadder LP D
+    100020: StellLadder LP E
+    400000: //RootNode
+    400002: StellLadder A
+    400004: StellLadder B
+    400006: StellLadder C
+    400008: StellLadder D
+    400010: StellLadder E
+    400012: StellLadder LP A
+    400014: StellLadder LP B
+    400016: StellLadder LP C
+    400018: StellLadder LP D
+    400020: StellLadder LP E
+    2300000: StellLadder A
+    2300002: StellLadder B
+    2300004: StellLadder C
+    2300006: StellLadder D
+    2300008: StellLadder E
+    2300010: StellLadder LP A
+    2300012: StellLadder LP B
+    2300014: StellLadder LP C
+    2300016: StellLadder LP D
+    2300018: StellLadder LP E
+    3300000: StellLadder A
+    3300002: StellLadder B
+    3300004: StellLadder C
+    3300006: StellLadder D
+    3300008: StellLadder E
+    3300010: StellLadder LP A
+    3300012: StellLadder LP B
+    3300014: StellLadder LP C
+    3300016: StellLadder LP D
+    3300018: StellLadder LP E
+    4300000: StellLadder B
+    4300002: StellLadder A
+    4300004: StellLadder C
+    4300006: StellLadder D
+    4300008: StellLadder E
+    4300010: StellLadder LP B
+    4300012: StellLadder LP A
+    4300014: StellLadder LP C
+    4300016: StellLadder LP D
+    4300018: StellLadder LP E
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1550 @@
+fileFormatVersion: 2
+guid: 2793b1c229685204996a0e6fa5936fae
+timeCreated: 1480459966
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Crossbow
+    100002: DarkElf
+    100004: //RootNode
+    100006: DarkElfSkeleton
+    100008: Head
+    100010: Hips
+    100012: LeftArm
+    100014: LeftFingerBase
+    100016: LeftFoot
+    100018: LeftForeArm
+    100020: LeftHand
+    100022: LeftHandIndex1
+    100024: LeftLeg
+    100026: LeftShoulder
+    100028: LeftToeBase
+    100030: LeftUpLeg
+    100032: LHipJoint
+    100034: LowerBack
+    100036: LThumb
+    100038: Neck
+    100040: Neck1
+    100042: RHipJoint
+    100044: RightArm
+    100046: RightFingerBase
+    100048: RightFoot
+    100050: RightForeArm
+    100052: RightHand
+    100054: RightHandIndex1
+    100056: RightLeg
+    100058: RightShoulder
+    100060: RightToeBase
+    100062: RightUpLeg
+    100064: RThumb
+    100066: Spine
+    100068: Spine1
+    100070: Weapon_R
+    400000: Crossbow
+    400002: DarkElf
+    400004: //RootNode
+    400006: DarkElfSkeleton
+    400008: Head
+    400010: Hips
+    400012: LeftArm
+    400014: LeftFingerBase
+    400016: LeftFoot
+    400018: LeftForeArm
+    400020: LeftHand
+    400022: LeftHandIndex1
+    400024: LeftLeg
+    400026: LeftShoulder
+    400028: LeftToeBase
+    400030: LeftUpLeg
+    400032: LHipJoint
+    400034: LowerBack
+    400036: LThumb
+    400038: Neck
+    400040: Neck1
+    400042: RHipJoint
+    400044: RightArm
+    400046: RightFingerBase
+    400048: RightFoot
+    400050: RightForeArm
+    400052: RightHand
+    400054: RightHandIndex1
+    400056: RightLeg
+    400058: RightShoulder
+    400060: RightToeBase
+    400062: RightUpLeg
+    400064: RThumb
+    400066: Spine
+    400068: Spine1
+    400070: Weapon_R
+    4300000: DarkElf
+    4300002: Crossbow
+    7400000: Default Take
+    7400002: Dance-lambada
+    7400004: Death-Backwards
+    7400006: idle
+    7400008: Laught
+    7400010: Run-flee
+    7400012: sad
+    7400014: shoot-gun
+    7400016: sleep4-_fixed
+    7400018: Walk-sexy_-_fixed
+    9500000: //RootNode
+    13700000: Crossbow
+    13700002: DarkElf
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nInbetween bone default rotation found in this file
+      is different from the one found in the source avatar:\n\t'Spine1' : rotation
+      error = 7.003936 deg\n\t'Neck1' : rotation error = 19.408993 deg\n\nClip 'Default
+      Take' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Neck1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Dance-lambada' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Neck1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Death-Backwards' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Neck1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'idle' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Neck1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Laught' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Neck1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Run-flee' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Neck1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'sad' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Neck1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'shoot-gun' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Neck1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'sleep4-_fixed' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Neck1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Walk-sexy_-_fixed' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Spine1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Neck1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 6606
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crossbow
+        weight: 0
+      - path: DarkElf
+        weight: 0
+      - path: DarkElfSkeleton
+        weight: 1
+      - path: DarkElfSkeleton/Hips
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase/LeftHandIndex1
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LThumb
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck/Neck1
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck/Neck1/Head
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase/RightHandIndex1
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RThumb
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/Weapon_R
+        weight: 0
+      - path: DarkElfSkeleton/Hips/RHipJoint
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg/RightFoot/RightToeBase
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dance-lambada
+      takeName: Dance-lambada
+      firstFrame: 0
+      lastFrame: 543
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crossbow
+        weight: 0
+      - path: DarkElf
+        weight: 0
+      - path: DarkElfSkeleton
+        weight: 1
+      - path: DarkElfSkeleton/Hips
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase/LeftHandIndex1
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LThumb
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck/Neck1
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck/Neck1/Head
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase/RightHandIndex1
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RThumb
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/Weapon_R
+        weight: 0
+      - path: DarkElfSkeleton/Hips/RHipJoint
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg/RightFoot/RightToeBase
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death-Backwards
+      takeName: Death-Backwards
+      firstFrame: 0
+      lastFrame: 97
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crossbow
+        weight: 0
+      - path: DarkElf
+        weight: 0
+      - path: DarkElfSkeleton
+        weight: 1
+      - path: DarkElfSkeleton/Hips
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase/LeftHandIndex1
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LThumb
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck/Neck1
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck/Neck1/Head
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase/RightHandIndex1
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RThumb
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/Weapon_R
+        weight: 0
+      - path: DarkElfSkeleton/Hips/RHipJoint
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg/RightFoot/RightToeBase
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: idle
+      firstFrame: 0
+      lastFrame: 124
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crossbow
+        weight: 0
+      - path: DarkElf
+        weight: 0
+      - path: DarkElfSkeleton
+        weight: 1
+      - path: DarkElfSkeleton/Hips
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase/LeftHandIndex1
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LThumb
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck/Neck1
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck/Neck1/Head
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase/RightHandIndex1
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RThumb
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/Weapon_R
+        weight: 0
+      - path: DarkElfSkeleton/Hips/RHipJoint
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg/RightFoot/RightToeBase
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Laught
+      takeName: Laught
+      firstFrame: 0
+      lastFrame: 189
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crossbow
+        weight: 0
+      - path: DarkElf
+        weight: 0
+      - path: DarkElfSkeleton
+        weight: 1
+      - path: DarkElfSkeleton/Hips
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase/LeftHandIndex1
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LThumb
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck/Neck1
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck/Neck1/Head
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase/RightHandIndex1
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RThumb
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/Weapon_R
+        weight: 0
+      - path: DarkElfSkeleton/Hips/RHipJoint
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg/RightFoot/RightToeBase
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run-flee
+      takeName: Run-flee
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crossbow
+        weight: 0
+      - path: DarkElf
+        weight: 0
+      - path: DarkElfSkeleton
+        weight: 1
+      - path: DarkElfSkeleton/Hips
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase/LeftHandIndex1
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LThumb
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck/Neck1
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck/Neck1/Head
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase/RightHandIndex1
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RThumb
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/Weapon_R
+        weight: 0
+      - path: DarkElfSkeleton/Hips/RHipJoint
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg/RightFoot/RightToeBase
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sad
+      takeName: sad
+      firstFrame: 0
+      lastFrame: 269
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crossbow
+        weight: 0
+      - path: DarkElf
+        weight: 0
+      - path: DarkElfSkeleton
+        weight: 1
+      - path: DarkElfSkeleton/Hips
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase/LeftHandIndex1
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LThumb
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck/Neck1
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck/Neck1/Head
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase/RightHandIndex1
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RThumb
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/Weapon_R
+        weight: 0
+      - path: DarkElfSkeleton/Hips/RHipJoint
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg/RightFoot/RightToeBase
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: shoot-gun
+      takeName: shoot-gun
+      firstFrame: 0
+      lastFrame: 139
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crossbow
+        weight: 0
+      - path: DarkElf
+        weight: 0
+      - path: DarkElfSkeleton
+        weight: 1
+      - path: DarkElfSkeleton/Hips
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase/LeftHandIndex1
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LThumb
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck/Neck1
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck/Neck1/Head
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase/RightHandIndex1
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RThumb
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/Weapon_R
+        weight: 0
+      - path: DarkElfSkeleton/Hips/RHipJoint
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg/RightFoot/RightToeBase
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sleep4-_fixed
+      takeName: sleep4-_fixed
+      firstFrame: 0
+      lastFrame: 173
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crossbow
+        weight: 0
+      - path: DarkElf
+        weight: 0
+      - path: DarkElfSkeleton
+        weight: 1
+      - path: DarkElfSkeleton/Hips
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase/LeftHandIndex1
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LThumb
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck/Neck1
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck/Neck1/Head
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase/RightHandIndex1
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RThumb
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/Weapon_R
+        weight: 0
+      - path: DarkElfSkeleton/Hips/RHipJoint
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg/RightFoot/RightToeBase
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk-sexy_-_fixed
+      takeName: Walk-sexy_-_fixed
+      firstFrame: -1
+      lastFrame: 163
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crossbow
+        weight: 0
+      - path: DarkElf
+        weight: 0
+      - path: DarkElfSkeleton
+        weight: 1
+      - path: DarkElfSkeleton/Hips
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LHipJoint/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase/LeftHandIndex1
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LThumb
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck/Neck1
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/Neck/Neck1/Head
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase/RightHandIndex1
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RThumb
+        weight: 0
+      - path: DarkElfSkeleton/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/Weapon_R
+        weight: 0
+      - path: DarkElfSkeleton/Hips/RHipJoint
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: DarkElfSkeleton/Hips/RHipJoint/RightUpLeg/RightLeg/RightFoot/RightToeBase
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.26
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerBack
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: DarkElf-Final(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Crossbow
+      position: {x: 1.0685421, y: 0.0031833278, z: 1.6027637}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.2000002, y: 1.2000002, z: 1.2}
+      transformModified: 1
+    - name: DarkElf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DarkElfSkeleton
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hips
+      position: {x: -0.010321899, y: 0.021425486, z: 1.205733}
+      rotation: {x: 0.5000976, y: 0.49990255, z: -0.5000974, w: 0.49990255}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1}
+      transformModified: 1
+    - name: LHipJoint
+      position: {x: 0.000000027846545, y: 0.000000001452863, z: -7.2643164e-10}
+      rotation: {x: -0.09433657, y: -0.92507374, z: 0.35475716, w: 0.097399205}
+      scale: {x: 1.0000014, y: 1.0000007, z: 1.0000014}
+      transformModified: 1
+    - name: LeftUpLeg
+      position: {x: -0.2022171, y: 0.00000002324581, z: 0.0000000019371509}
+      rotation: {x: 0.9178518, y: 0.040898733, z: 0.045590326, w: 0.39216965}
+      scale: {x: 1.0000012, y: 1.0000017, z: 1.0000026}
+      transformModified: 1
+    - name: LeftLeg
+      position: {x: -0.3478925, y: 0.000000011622905, z: -0.0000000077486035}
+      rotation: {x: 0.031977978, y: -0.042615283, z: 0.06935842, w: 0.99616814}
+      scale: {x: 1.0000005, y: 0.9999998, z: 0.9999998}
+      transformModified: 1
+    - name: LeftFoot
+      position: {x: -0.63976955, y: 0.000000047566136, z: -7.2643164e-10}
+      rotation: {x: 0.7217606, y: 0.0703332, z: -0.68197846, w: 0.09497508}
+      scale: {x: 1.000001, y: 1.0000011, z: 1.0000013}
+      transformModified: 1
+    - name: LeftToeBase
+      position: {x: -0.16197523, y: 0.0000000058114527, z: 0}
+      rotation: {x: 0.050817937, y: -0.06687288, z: -0.02660919, w: 0.9961112}
+      scale: {x: 1, y: 0.9999998, z: 1.0000014}
+      transformModified: 1
+    - name: LowerBack
+      position: {x: 0.000000027846545, y: 0.000000001452863, z: -7.2643164e-10}
+      rotation: {x: -0.00000008568168, y: -0.04263571, z: -0.00059852004, w: 0.99909055}
+      scale: {x: 1.000002, y: 1.0000017, z: 1.0000011}
+      transformModified: 1
+    - name: Spine
+      position: {x: -0.12138814, y: 0.0000000077486035, z: -2.4214397e-10}
+      rotation: {x: -0.000057843245, y: 0.0554238, z: -0.0005779444, w: 0.99846274}
+      scale: {x: 0.9999999, y: 1.000001, z: 0.99999905}
+      transformModified: 1
+    - name: Spine1
+      position: {x: -0.26969674, y: 0.000000020824372, z: 0.000000008414499}
+      rotation: {x: -0.000000019703291, y: 0.016073698, z: -0.0014782907, w: 0.99986976}
+      scale: {x: 1.0000015, y: 1.0000014, z: 1.0000007}
+      transformModified: 1
+    - name: LeftShoulder
+      position: {x: 0.00000020350679, y: -0.0000000024214386, z: 0.000000036533454}
+      rotation: {x: -0.80895084, y: -0.5873376, z: 0.024436384, w: 0.0060070544}
+      scale: {x: 0.9999997, y: 1.0000019, z: 1.0000018}
+      transformModified: 1
+    - name: LeftArm
+      position: {x: -0.18849672, y: -0.00000009153038, z: 0.000000006780028}
+      rotation: {x: 0.9792051, y: -0.19552423, z: -0.02134704, w: 0.049720082}
+      scale: {x: 0.99999857, y: 0.99999917, z: 1.0000002}
+      transformModified: 1
+    - name: LeftForeArm
+      position: {x: -0.28526172, y: 0.000000007022172, z: -0.0000000077486035}
+      rotation: {x: 0.000000059604623, y: 0.000000035390244, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 0.99999833, z: 0.9999988}
+      transformModified: 1
+    - name: LeftHand
+      position: {x: -0.2745025, y: -0.0000000038743018, z: -0.000000054240225}
+      rotation: {x: -0.000000063329914, y: -0.00000004470347, z: 4.232722e-16, w: 1}
+      scale: {x: 1.0000001, y: 1.0000011, z: 1.0000007}
+      transformModified: 1
+    - name: LeftFingerBase
+      position: {x: -0.000000036805865, y: -0.000000034868716, z: -0.00000006973743}
+      rotation: {x: 0.00000005960463, y: -0.0000000251457, z: -0.00000008940695, w: 1}
+      scale: {x: 0.99999976, y: 0.9999994, z: 0.99999976}
+      transformModified: 1
+    - name: LeftHandIndex1
+      position: {x: -0.05465735, y: 0.0000000038743018, z: 0.000000011622905}
+      rotation: {x: 0.000000007450571, y: 0.000000037252896, z: 0.00000008940695,
+        w: 1}
+      scale: {x: 1, y: 1.000001, z: 1.0000008}
+      transformModified: 1
+    - name: LThumb
+      position: {x: -0.000000036805865, y: -0.000000034868716, z: -0.00000006973743}
+      rotation: {x: 0.35355452, y: 0.3535533, z: -0.14644676, w: 0.85355294}
+      scale: {x: 1.0000007, y: 0.9999989, z: 1.0000021}
+      transformModified: 1
+    - name: Neck
+      position: {x: 0.00000020350679, y: -0.0000000024214386, z: 0.000000036533454}
+      rotation: {x: -0.00021105468, y: -0.02624624, z: 0.009722403, w: 0.9996082}
+      scale: {x: 0.99999994, y: 1.0000005, z: 0.99999994}
+      transformModified: 1
+    - name: Neck1
+      position: {x: -0.11585811, y: 0.000000012591481, z: -0.000000029783696}
+      rotation: {x: -0.00055852137, y: -0.09694416, z: -0.04832173, w: 0.994116}
+      scale: {x: 1.0000008, y: 1.0000005, z: 1.0000002}
+      transformModified: 1
+    - name: Head
+      position: {x: -0.090252705, y: 0.000000015981495, z: 0.000000004116446}
+      rotation: {x: -0.000017272945, y: 0.06937726, z: 0.030184403, w: 0.99713373}
+      scale: {x: 0.99999976, y: 1.0000002, z: 1.0000008}
+      transformModified: 1
+    - name: RightShoulder
+      position: {x: 0.00000020350679, y: -0.0000000024214386, z: 0.000000036533454}
+      rotation: {x: 0.009348063, y: 0.0131112505, z: -0.58172864, w: 0.81322354}
+      scale: {x: 1.0000007, y: 1.0000007, z: 0.9999999}
+      transformModified: 1
+    - name: RightArm
+      position: {x: -0.21395773, y: 0.000000013075768, z: 0.0000000099278985}
+      rotation: {x: -0.030871544, y: 0.025719726, z: 0.19923995, w: -0.97912663}
+      scale: {x: 1.0000012, y: 0.9999998, z: 1.0000013}
+      transformModified: 1
+    - name: RightForeArm
+      position: {x: -0.25019667, y: 0.000000025182961, z: 0.0000000038743018}
+      rotation: {x: -0.0000000018626447, y: 0.000000007450579, z: 0.0000000030267977,
+        w: 1}
+      scale: {x: 1.000001, y: 1.000001, z: 1.0000004}
+      transformModified: 1
+    - name: RightHand
+      position: {x: -0.28786448, y: 0.000000056177377, z: 0.0000000077486035}
+      rotation: {x: -0, y: -0, z: 1.3877781e-17, w: 1}
+      scale: {x: 1.0000011, y: 1.0000004, z: 1.0000004}
+      transformModified: 1
+    - name: RightFingerBase
+      position: {x: 0.0000000038743018, y: -0.000000011622905, z: 0.00000004261732}
+      rotation: {x: -0.000000061467276, y: -0.000000033527606, z: 5.82076e-10, w: 1}
+      scale: {x: 0.99999607, y: 0.99999964, z: 1.0000021}
+      transformModified: 1
+    - name: RightHandIndex1
+      position: {x: -0.04939522, y: 0, z: -0.000000015497207}
+      rotation: {x: 0.000000061467276, y: 0.000000033527606, z: -5.82076e-10, w: 1}
+      scale: {x: 1.0000023, y: 1.0000021, z: 1.0000021}
+      transformModified: 1
+    - name: RThumb
+      position: {x: 0.0000000038743018, y: -0.000000011622905, z: 0.00000004261732}
+      rotation: {x: 0.35355467, y: -0.35355335, z: -0.14644693, w: -0.8535529}
+      scale: {x: 1.0000007, y: 1.0000004, z: 0.99999905}
+      transformModified: 1
+    - name: Weapon_R
+      position: {x: -0.07800002, y: 0.038251754, z: 0.000000030994414}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999845, y: 1.0000011, z: 1.0000026}
+      transformModified: 1
+    - name: RHipJoint
+      position: {x: 0.000000027846545, y: 0.000000001452863, z: -7.2643164e-10}
+      rotation: {x: -0.10569541, y: 0.926245, z: 0.34757742, w: -0.10044269}
+      scale: {x: 1.0000017, y: 1.0000015, z: 1.000001}
+      transformModified: 1
+    - name: RightUpLeg
+      position: {x: -0.20343055, y: -0.0000000019371509, z: -0.00000004649162}
+      rotation: {x: -0.9231461, y: 0.03064784, z: -0.04891615, w: 0.38009095}
+      scale: {x: 0.9999994, y: 0.99999875, z: 0.99999964}
+      transformModified: 1
+    - name: RightLeg
+      position: {x: -0.36654192, y: 0.00000004031695, z: 0.000000016783597}
+      rotation: {x: 0.026026845, y: 0.043864787, z: 0.05627342, w: -0.9971118}
+      scale: {x: 1.0000002, y: 1.000001, z: 1.0000008}
+      transformModified: 1
+    - name: RightFoot
+      position: {x: -0.61771864, y: -0.000028762817, z: -0.000055679528}
+      rotation: {x: -0.7174239, y: 0.084929936, z: 0.67816526, w: 0.13483965}
+      scale: {x: 1.000001, y: 1.0000011, z: 0.9999995}
+      transformModified: 1
+    - name: RightToeBase
+      position: {x: -0.15942374, y: -0.000000017434358, z: -0.0000000038743018}
+      rotation: {x: -0.06425744, y: -0.06586346, z: 0.047583837, w: 0.9946199}
+      scale: {x: 1.0000011, y: 1.0000018, z: 1.0000026}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &175616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400640}
+  - 114: {fileID: 11427680}
+  - 114: {fileID: 11489196}
+  m_Layer: 0
+  m_Name: SCEffects_Stun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400640
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175616}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11427680
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f747ef48e56d24f5cbc63d171d9b4a48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  callbackReceiver: {fileID: 175616}
+  callbackName: SpawnSpell
+--- !u!114 &11489196
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8397c35dcc4bf4d608600e8f56d960ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spellPrefab: {fileID: 177874, guid: 623449c0c42ba4684a7759687aa6f8e4, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: callbackReceiver
+      value: 
+      objectReference: {fileID: 175616}
+    - target: {fileID: 0}
+      propertyPath: callbackName
+      value: SpawnSpell
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: spellPrefab
+      value: 
+      objectReference: {fileID: 177874, guid: 623449c0c42ba4684a7759687aa6f8e4, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 175616}
+  m_IsPrefabParent: 1

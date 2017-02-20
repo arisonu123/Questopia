@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SkyBoxPreference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <apiKey />
+  <skyBoxName>Skybox_Cave2</skyBoxName>
+  <directory>Assets/Art/skyboxes/StreetViewSkyboxes</directory>
+  <latitude>35.0972166</latitude>
+  <longitude>132.4469549</longitude>
+  <imgSize>640</imgSize>
+</SkyBoxPreference>

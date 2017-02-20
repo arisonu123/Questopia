@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: dad64e8e3930ea442a8e6ae446fa6618
+timeCreated: 1479838805
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: aim
+    100002: //RootNode
+    100004: arrow
+    100006: bow
+    100008: Circle_001
+    100010: Circle_003
+    100012: Circle_004
+    100014: Circle_005
+    100016: Circle_006
+    100018: Circle_007
+    100020: Circle_008
+    100022: Circle_009
+    100024: Circle_010
+    100026: Circle_011
+    100028: Circle_012
+    100030: Circle_014
+    100032: Plane_000
+    100034: Plane_001
+    100036: quiver
+    400000: aim
+    400002: //RootNode
+    400004: arrow
+    400006: bow
+    400008: Circle_001
+    400010: Circle_003
+    400012: Circle_004
+    400014: Circle_005
+    400016: Circle_006
+    400018: Circle_007
+    400020: Circle_008
+    400022: Circle_009
+    400024: Circle_010
+    400026: Circle_011
+    400028: Circle_012
+    400030: Circle_014
+    400032: Plane_000
+    400034: Plane_001
+    400036: quiver
+    2300000: aim
+    2300002: arrow
+    2300004: bow
+    2300006: Circle_001
+    2300008: Circle_003
+    2300010: Circle_004
+    2300012: Circle_005
+    2300014: Circle_006
+    2300016: Circle_007
+    2300018: Circle_008
+    2300020: Circle_009
+    2300022: Circle_010
+    2300024: Circle_011
+    2300026: Circle_012
+    2300028: Circle_014
+    2300030: Plane_000
+    2300032: Plane_001
+    2300034: quiver
+    3300000: aim
+    3300002: arrow
+    3300004: bow
+    3300006: Circle_001
+    3300008: Circle_003
+    3300010: Circle_004
+    3300012: Circle_005
+    3300014: Circle_006
+    3300016: Circle_007
+    3300018: Circle_008
+    3300020: Circle_009
+    3300022: Circle_010
+    3300024: Circle_011
+    3300026: Circle_012
+    3300028: Circle_014
+    3300030: Plane_000
+    3300032: Plane_001
+    3300034: quiver
+    4300000: aim
+    4300002: Circle_014
+    4300004: Circle_012
+    4300006: Circle_011
+    4300008: Circle_010
+    4300010: Circle_009
+    4300012: Circle_008
+    4300014: Circle_007
+    4300016: Circle_006
+    4300018: Circle_005
+    4300020: Circle_004
+    4300022: quiver
+    4300024: Circle_003
+    4300026: Plane_001
+    4300028: Plane_000
+    4300030: arrow
+    4300032: Circle_001
+    4300034: bow
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
